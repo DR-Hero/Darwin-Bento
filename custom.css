@@ -1,0 +1,19 @@
+body.tm-navbar-fixed:not(.tm-header-offset) > .uk-container > .uk-sticky-placeholder, .tm-navbar {  
+    background: none!important;  
+}  
+
+.tm-navbar {  
+    box-shadow: none!important;  
+} //tansparent menu
+
+body.tm-navbar-fixed.tm-header-offset .tm-navbar:not(.tm-navbar-attached) {    
+    background: blue;    
+} //change background color
+
+.tm-header-offset .tm-navbar:not(.tm-navbar-attached) .uk-navbar-nav > li > a {  
+    color: #636873;  
+}  
+
+.tm-header-offset .tm-navbar:not(.tm-navbar-attached) .uk-navbar-nav > li.uk-active > a {  
+    color: #2196f3;  
+}  // change the background color to white like described above and also change the font color of the menu:
