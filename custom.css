@@ -16,7 +16,7 @@ body.tm-navbar-fixed.tm-header-offset .tm-navbar:not(.tm-navbar-attached) {
 
 .tm-header-offset .tm-navbar:not(.tm-navbar-attached) .uk-navbar-nav > li.uk-active > a {  
     color: #2196f3;  
-}  // change the background color to white like described above and also change the font color of the menu:
+}  /* change the background color to white like described above and also change the font color of the menu: */
 
 /* Background image header and footer */  
 
@@ -27,4 +27,14 @@ background-repeat: no-repeat;
 .tm-footer {  
 background-image: url("http://h-na.de/bento/images/powered_by.png") !important;  
 background-repeat: no-repeat;  
+}
+
+
+/* header transparency */
+.tm-logo .tm-logo-sticky, .tm-icon, .tm-logo {  
+    opacity: 0.5;  
+}
+
+body.tm-navbar-fixed:not(.tm-header-offset) > .uk-container > .uk-sticky-placeholder, .tm-navbar {  
+    background: rgba(255, 255, 255, 0.3);  
 }
